@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+background: #e1ffff; /* Old browsers */
+background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); }/** IE6-9 */
+
+
+nav .menu {
+    text-align: end;
+    }
+ 
+nav .menu li{
+
+display: inline-block;
+padding: 15px 29px;
+list-style: none;
+
+    }
+
+nav .menu li a{
+text-decoration: none;
+color: #000;
+text-transform: uppercase;
+font-family: 'Signika Negative', sans-serif;
+font-size: 0.9em;
+    }
+
+
+nav .menu li a:hover{
+border-bottom: 2px solid #F13006;
+border-radius: 4px;
+    }
+    
+.submenu{
+display: none;
+position: absolute;
+}
+
+.linkprod:hover ~ .submenu {
+display: block;
+border-radius: 5%;
+border: .3rem solid rgb(243, 35, 35); 
+margin: 0%;
+padding: 0%;
+}
+
+
+.fondo{
+ margin-bottom: 4rem;    
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.lista-pro {
+    margin-top: 4rem;
+    padding: 0;
+ 
+}
+
+.lista-pro {
+    float: left;
+    width: 50%;
+}
+@media(min-width:768px) {
+    .lista-pro li {
+        width: 50%;
+    }
+}
+
+.lista-pro li img{
+border: 10px solid rgb(80, 73, 146);
+border-radius: 5%;
+}
+.lista-pro li img:hover {
+    border: 10px solid rgb(98, 91, 156, 1);
+}
+ 
+.fondito {
+    max-width: 100%;
+}
+
+.lista-pro li p {
+font-size: 2.8rem;
+font-weight: 300;
+margin:  10px 0 0 0;
+}
+
+.precio {
+color: #ffce00;
+}
+
+
+.fa fa-star{
+    margin-bottom: 4rem;
+}
+
+.pre-nombre{
+    margin-bottom: .5rem;
+}
+
+.star {
+    margin-bottom: .5rem;
+}
+
+.btn btn-primary {
+padding: 10px;
+margin-top: 0%;
+}
+
+.btn btn-default producto {
+    background-color:  #ffce00;
+    padding: 10px ;
+    margin-bottom: 2rem;
+    max-width: auto;
+    display:inline-block
+    }
+    
+    .linkb{ 
+        border:0; 
+        padding:0; 
+        text-decoration:underline; 
+        background:transparent; 
+        } 
+
+.copy{
+    
+}

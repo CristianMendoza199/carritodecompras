@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/'-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css">
+    
+</head>
+<body>
+   
+    <header class="header">
+        <div class="head">
+        <img  src="img/logo.jpg" alt="logo">
+        <nav>
+            <ul class="menu">
+                <li class="prod"><a href="#" class="linkprod">Carrito de Compras</a>
+                    <ul class="submenu">
+                        <li><a href="#">No sé </a></li>
+                    </ul>
+              </ul>
+        </div>
+
+    </header>
+
+    <div class="contenedor">
+        <div class="fondo">
+            <img class="fondito" src="img/fondo.jpg" alt="fondo">
+        </div>
+    <main>
+        <h2>Compra YouShoes</h2>
+        <ul class="lista-pro">
+            <li>
+                <img src="img/1.jpg" alt="shoes1">
+                    <div class="pre-nombre">
+                        <p>Nike <span class="precio"> $500,000</span></p>
+                        <div class="star">
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                        </div>
+                    </div>
+                        <div>
+                            <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                        </div>
+                        <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $550,000" nombre="Nike " role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/2.jpg" alt="shoes2">
+                    <div class="pre-nombre">
+                        <p>Nike II <span class="precio"> $450,000</span></p>
+                        <div class="star">
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                        </div>
+                    </div>
+                        <div>
+                            <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                        </div>
+                        <input type="button" id="agregrar" class="button" value="agregar">
+            </li>
+            <li>
+                <img src="img/3.jpg" alt="shoes3">
+                    <div class="pre-nombre">
+                        <p>Nike Classic <span class="precio"> $550,000</span></p>
+                        <div class="star">
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                        </div>
+                    </div>
+                        <div>
+                            <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                        </div>
+                        <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $550,000" nombre="Nike Classic" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/4.jpg" alt="shoes4">
+                <div class="pre-nombre">
+                    <p>Nike Running <span class="precio"> $500,000</span></p>
+                    <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                    <a href="#" class="btn btn-default producto fas fa-plus-circle" precio="$500,000" nombre="Nike Running" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/5.jpg" alt="shoes5">
+                <div class="pre-nombre">
+                    <p>Adidas Classic <span class="precio"> $700,000</span></p>
+                    <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                    <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $700,000" nombre="Adidas Classic" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/6.jpg" alt="shoes6">
+                <div class="pre-nombre">
+                         <p>Adidas athletic <span class="precio"> $600,000</span></p>
+                         <div class="star">
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                            <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                        </div>
+                    </div>
+                        <div>
+                            <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                        </div>
+                        <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $600,000" nombre="Adidas athletic" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/7.jpg" alt="shoes7">
+                <div class="pre-nombre">
+                    <p>Under Armour <span class="precio"> $500,000</span></p>
+                    <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                    <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $500,000" nombre="Under Armour" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/8.jpg" alt="shoes8">
+                <div class="pre-nombre">
+                             <p>Under Armour<span class="precio"> $700,000</span></p>
+                             <div class="star">
+                                <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                                <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                                <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                                <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                                <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                            </div>
+                        </div>
+                            <div>
+                                <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                            </div>
+                            <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $700,000" nombre="Under Armour" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/9.jpg" alt="shoes9">
+                <div class="pre-nombre">
+                      <p>Under Armour <span class="precio"> $500,000</span></p>
+                      <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                    <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $500,000" nombre="Under Armour" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/10.jpg" alt="shoes10">
+                <div class="pre-nombre">
+                   <p>New Balance<span class="precio"> $900,000</span></p> 
+                   <div class="star">
+                    <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                    <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                    <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                    <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                    <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                </div>
+            </div>
+                <div>
+                    <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                </div>
+                <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $900,000" nombre="new Balance" role="button">Agregar al carrito</a>
+            </li>
+            <li>
+                <img src="img/11.jpg" alt="shoes11">
+                <div class="pre-nombre">
+                       <p>New Balance<span class="precio"> $700,000</span></p>
+                       <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                    <a href="#" class="btn btn-default producto fas fa-plus-circle" precio=" $700,000" nombre="new Balance" role="button">Agregar al carrito</a>
+
+            </li>
+            <li>
+                <img src="img/12.jpg" alt="shoes12">
+                <div class="pre-nombre">
+                    <p>New Balance<span class="precio"> $500,000</span></p>
+                    <div class="star">
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="1 estrella" ></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="2 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="3 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="4 estrellas"></span>
+                        <span class="fa fa-star" style="cursor: pointer;" onclick="calificar(this)" id="5 estrellas"></span>   
+                    </div>
+                </div>
+                    <div>
+                        <p><a href="#" class="btn btn-primary" role="button">Ver</a>
+                    </div>
+                            <a href="#" class="btn btn-default producto fas fa-plus-circle" id="new balance" precio=" $500,000" nombre="new Balance" role="button">Agregar al carrito</a>
+                
+            </li>
+        </ul>
+    </main>
+</div>
+<footer>
+    <div>
+        <p class="copy">Todos los derechos reservados &copy;</p>
+    </div>
+    
+</footer>
+    
+
+
+<script src="/js/minicart.js"></script>
+<script src="/js/funciones.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+ integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+
+      
+        
+</html>
